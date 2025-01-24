@@ -4,7 +4,7 @@ from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
 # Set your Google API Key (replace with your actual key or use environment variable)
-google_api_key = "AIzaSyAQYcnI0Gj8T8IlgbzJtMgFru8hK6Q06qU"  # REMOVE FOR ACTUAL CODE
+google_api_key = "aSyAQYcnI0Gj8T8IlgbzJtMgFru8hK6Q06qU"  # REMOVE FOR ACTUAL CODE
 
 # Initialize the Gemini Pro LLM
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=google_api_key)
